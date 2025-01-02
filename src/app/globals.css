@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+/* styles/globals.css */
+:root{
+  --background-color: #fff;
+  --background-light: #fff;
+  --shadow-color: rgba(0,0,0,0.2);
+  --primary-color: rgba(255, 0, 86);
+  --text-color: #0a0a0a;
+  --text-light: #575757;
+  --font-size: 16px;
+  --animation-speed: 1;
+}
+/* Recipe Container Styling */
+.recipes-container {
+  @apply w-full p-4 grid grid-cols-[repeat(auto-fit,_minmax(220px,_1fr))] gap-12;
+}
+
+
+@tailwind utilities;
